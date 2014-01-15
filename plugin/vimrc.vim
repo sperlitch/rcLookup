@@ -44,7 +44,7 @@ endfunction
 "endfunction
 
 if !exists(":OpenOption")
-  command -nargs=1  OpenOption  :call s:openOptionUnderCursor()
+  command OpenOption  :call s:openOptionUnderCursor()
 endif
 
 let &cpo = s:save_cpo
