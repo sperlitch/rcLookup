@@ -1,0 +1,12 @@
+*vimrc.txt*	Plugin for managing your vimrc
+
+Helpful utilities for commenting and viewing vimrc options
+
+Mappings:
+
+Commands:
+:OpenOption
+	Reveals :option under cursor
+
+						*vimrc-settings*
+This plugin doesn't have any settings.
