@@ -30,7 +30,7 @@ function s:searchOption(option)
 endfunction
 
 function s:openOptionUnderCursor()
-	echo s:options['compatible']
+	echo g:options['compatible']
 	return
 	let line= getline(".")
 	let option=matchstr(line, 'set \(no\|\)\zs\(\a*\)')
