@@ -11,6 +11,17 @@ let g:loaded_vimrc = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
+let s:options = {
+	'compatible': 'behave very Vi compatible (not advisable)'
+	}
+
+let optionHeaders = {
+	'1': '1 important'
+	}
+
+let shortnames = {
+	'cp': 'compatible'
+	}
 "if !hasmapto('<Plug>TypecorrAdd')
 "  map <unique> <Leader>a  <Plug>TypecorrAdd
 "endif
@@ -27,6 +38,8 @@ function s:searchOption(option)
 endfunction
 
 function s:openOptionUnderCursor()
+	echo s:options['compatible']
+	return
 	let line= getline(".")
 	let option=matchstr(line, 'set \(no\|\)\zs\(\a*\)')
 	if option == ''
