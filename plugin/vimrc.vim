@@ -11,9 +11,9 @@ let g:loaded_vimrc = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-let s:options = { 'compatible': 'behave very Vi compatible (not advisable)' }
-let s:optionHeaders = { '1': '1 important' }
-let s:shortnames = { 'cp': 'compatible' }
+let g:options = { 'compatible': 'behave very Vi compatible (not advisable)' }
+let g:optionHeaders = { '1': '1 important' }
+let g:shortnames = { 'cp': 'compatible' }
 "if !hasmapto('<Plug>TypecorrAdd')
 "  map <unique> <Leader>a  <Plug>TypecorrAdd
 "endif
