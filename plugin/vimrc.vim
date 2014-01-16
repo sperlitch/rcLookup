@@ -11,12 +11,12 @@ let g:loaded_vimrc = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-let g:options = {
+let g:options= {
 	'compatible': 'behave very Vi compatible (not advisable)',
 	'cpoptions': 'list of flags to specify Vi compatibility',
 	'insertmode': 'use Insert mode as the default mode',
 	'paste': 'paste mode, insert typed text literally',
-	'pastetoggle': 'key sequence to toggle paste mode',
+	'pastetoggle': 'key sequence to toggle paste mode'
 }
 
 function s:searchOption(option)
