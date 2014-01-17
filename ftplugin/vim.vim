@@ -18,7 +18,7 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 if !hasmapto('<Plug>OptionOpen')
-  map <buffer> <unique> <Leader>k  <Plug>OptionOpen
+  map <buffer> <unique> K  <Plug>OptionOpen
 endif
 noremap <buffer> <unique> <script> <Plug>OptionOpen  <SID>openOptionUnderCursor
 
