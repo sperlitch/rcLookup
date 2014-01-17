@@ -1,4 +1,4 @@
-*vimrc.txt*	Plugin for managing your vimrc
+*vim-options.txt*	Plugin for managing your vimrc options
 
 Helpful utilities for commenting and viewing vimrc options
 
@@ -6,7 +6,7 @@ Mappings:
 
 Commands:
 :OpenOption
-	Reveals :option under cursor
+	Reveals :option under cursor in vertical split right
 
 						*vimrc-settings*
 This plugin doesn't have any settings.
